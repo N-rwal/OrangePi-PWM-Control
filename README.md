@@ -1,6 +1,6 @@
 # OrangePi-PWM-Control
 
-A simple hardware PWM control system for Orange Pi using WiringOP and Python.
+A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Python.
 
 ## Setup Instructions
 
