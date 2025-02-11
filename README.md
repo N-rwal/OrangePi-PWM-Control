@@ -1,5 +1,8 @@
 # OrangePi-PWM-Control
 
+![image](https://github.com/user-attachments/assets/899bb309-ae63-4afa-9cb2-504d2e628868)
+
+
 A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Python.
 
 ## Setup Instructions
@@ -14,6 +17,10 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
    sudo apt update
    
    sudo apt install wiringpi
+
+   test with: gpio readall
+   
+![image](https://github.com/user-attachments/assets/7a4675dc-0164-4163-bae1-2ed8dad9e615)
 
 4. **Build the C library**
    
