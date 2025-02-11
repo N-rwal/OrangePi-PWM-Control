@@ -30,9 +30,7 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
    
    python3 pwm_control.py
 
-   ![image](https://github.com/user-attachments/assets/3ae7b97c-06c9-4658-ad3b-9d7d1987eb63)
-
-   The example script will generate a sweeping PWM signal up to 12% at 50 Hz on the wPi pi 21 which is the PMW1 pin.
+**The example script will generate a sweeping PWM signal up to 12% at 50 Hz on the wPi pin 21 which is the PMW1 pin.**
    
    Suitable for a servo.
 
