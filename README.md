@@ -18,7 +18,7 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
    
    sudo apt install wiringpi
 
-   test with: gpio readall
+   **Test with:** gpio readall
    
 ![image](https://github.com/user-attachments/assets/7a4675dc-0164-4163-bae1-2ed8dad9e615)
 
@@ -32,8 +32,11 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
 
    ![image](https://github.com/user-attachments/assets/3ae7b97c-06c9-4658-ad3b-9d7d1987eb63)
 
-   The script will generate a test PWM on the wPi pi 21 which is the PMW1 pin.
+   The example script will generate a sweeping PWM signal up to 12% at 50 Hz on the wPi pi 21 which is the PMW1 pin.
+   
+   Suitable for a servo.
 
+   ![image](https://github.com/user-attachments/assets/84f6180e-bf62-4e32-9cb4-ba30f6fb8493)
 
   **Custom Usage**
 
