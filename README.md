@@ -30,6 +30,11 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
    
    python3 pwm_control.py
 
+   ![image](https://github.com/user-attachments/assets/3ae7b97c-06c9-4658-ad3b-9d7d1987eb63)
+
+   The script will generate a test PWM on the wPi pi 21 which is the PMW1 pin.
+
+
   **Custom Usage**
 
   Modify pwm_control.py to set different PWM pins, frequencies, or duty cycles.
