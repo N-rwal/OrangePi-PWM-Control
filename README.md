@@ -9,14 +9,14 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
 
 1. **Clone the repository**
 ```
-   git clone https://github.com/N-rwal/OrangePi-PWM-Control.git
-   cd OrangePi-PWM-Control
+git clone https://github.com/N-rwal/OrangePi-PWM-Control.git
+cd OrangePi-PWM-Control
 ```
 2. **Install WiringOP (if not already installed)**
 ```
-   sudo apt update
+sudo apt update
    
-   sudo apt install wiringpi
+sudo apt install wiringpi
 ```
    **Test with:** ```gpio readall```
    
@@ -24,12 +24,12 @@ A simple hardware PWM control system for Orange Pi zero 2W using WiringOP and Py
 
 4. **Build the C library**
 ```
-   ./build.sh
+./build.sh
 ```
 
 6. **Run the Python script**
 ```
-   python3 pwm_control.py
+python3 pwm_control.py
 ```
 **The example script will generate a sweeping PWM signal up to 12% at 50 Hz on the wPi pin 21 which is the PMW1 pin.**
    
